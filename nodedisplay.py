@@ -11,6 +11,11 @@ def draw(tf_node, session, filename="layer_output"):
 
     :param tf_node:
         rv of session.graph.get_tensor_by_name('node_name'))
+    :param session:
+        tf.Session() object
+    :param filename:
+        plain filename, not a path. Will be stored in $HOME
+        as filename + '.svg'
     """
     allnodes = set([tf_node.name])
     allconnections = set([])
