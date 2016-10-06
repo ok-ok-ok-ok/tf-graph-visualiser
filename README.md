@@ -1,5 +1,9 @@
 # tf-graph-visualiser
 
+You need graphviz package installed first.
+Ubuntu:
+
+$ sudo apt-get install graphviz
 
 Assuming, that tf_session is a tf.Session() object.<br>
 
